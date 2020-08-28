@@ -23,6 +23,10 @@ a{
   color:#460cab;
   text-decoration: none;
 }
+a:hover {
+  background-color:#d991d8;
+}
+
 
 body {
   font-family:comfortaa;

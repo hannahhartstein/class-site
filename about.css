@@ -1,7 +1,7 @@
 body{
   background-color:black;
-  font-family:nunito;
-  font:white;
+  font-family: 'Nunito', sans-serif;
+  color:white;
   text-align:center;
   margin-top: 75px;
 }

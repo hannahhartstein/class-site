@@ -1,0 +1,39 @@
+/*
+ * Skin for jPlayer Plugin (jQuery JavaScript Library)
+ * http://www.happyworm.com/jquery/jplayer
+ *
+ * Skin Name: Blue Monday
+ *
+ * Copyright (c) 2010 Happyworm Ltd
+ * Dual licensed under the MIT and GPL licenses.
+ *  - http://www.opensource.org/licenses/mit-license.php
+ *  - http://www.gnu.org/copyleft/gpl.html
+ *
+ * Author: Silvia Benvenuti
+ * Skin Version: 3.0 (jPlayer 2.0.0)
+ * Date: 20th December 2010
+ */
+
+div.jp-audio {position: absolute; right: 120px;	top: 13px; width: 95px;}
+#home div.jp-audio {position: absolute; right: 0; top: 145px; width: 95px;}
+div.jp-interface {width:100%;}
+div.jp-audio div.jp-type-single div.jp-interface {height:12px;}
+div.jp-interface ul.jp-controls {float: left; display: inline; width: auto; margin: 0; padding: 0;}
+div.jp-interface ul.jp-controls li {display: inline;}
+div.jp-interface ul.jp-controls a {float: left; display: inline; width: 16px; height: 16px; margin: 0 0 0 5px; text-indent: -99999em; background: url(../../images/bg-audioplayer.png) no-repeat 0 0;}
+div.jp-audio div.jp-type-single a.jp-play,
+div.jp-audio div.jp-type-single a.jp-pause {background-position: -16px 0px;}
+div.jp-audio div.jp-type-single a.jp-play {background-position: -16px -16px;}
+	div.jp-audio div.jp-type-single a.jp-play:hover {background-position: -16px -0px;}
+	div.jp-audio div.jp-type-single a.jp-pause:hover {background-position: -16px -16px;}
+div.jp-audio div.jp-type-single a.jp-stop {display: none;}
+div.jp-audio div.jp-type-single a.jp-unmute {background-position: 0px -16px;}
+	div.jp-audio div.jp-type-single a.jp-unmute:hover {background-position: 0px -0px;}
+	div.jp-audio div.jp-type-single a.jp-mute:hover {background-position: 0px -16px;}
+div.jp-audio div.jp-type-single div.jp-progress {display: none;}
+div.jp-seek-bar {display: none;}
+div.jp-play-bar {display: none;}
+div.jp-volume-bar {overflow:hidden; background-color: #666; width:46px; height:6px; cursor: pointer; float: left; display: inline; margin: 5px 0 0 7px;}
+div.jp-volume-bar-value {background-color: #fff; width:0px; height:6px;}
+div.jp-current-time,
+div.jp-duration {display: none;}

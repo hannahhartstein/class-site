@@ -9,9 +9,15 @@ body {
 
 h1 {
   font-family:codystar;
+  letter-spacing:3px;
+  font-size:30px;
 }
 
 a {
-  color:white;
+  color:rgb(218, 218, 218);
+  text-decoration:none;
+}
 
+a:hover {
+  color:rgb(255, 249, 110);
 }

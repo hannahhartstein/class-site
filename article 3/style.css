@@ -1,0 +1,73 @@
+* {
+  box-sizing:border-box;
+}
+
+mark {
+  color:rgb(227, 255, 0);
+  padding:3px;
+  background:rgb(0, 26, 255);
+
+}
+
+img {
+  max-width:400px;
+  max-height:400px;
+}
+
+body {
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:3%;
+  margin-bottom:5%;
+  font-family:monospace;
+  background:black;
+  background-blend-mode:color-burn;
+  color:white;
+  line-height:20px;
+  font-size:14px;
+  cursor:pointer;
+}
+
+a {
+  color:rgb(227, 255, 0);
+  text-decoration: line-through;
+}
+
+a:hover {
+  color:rgb(0, 26, 255);
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+  text-shadow: 2px 2px rgb(0, 26, 255);
+
+}
+h2 {
+  font-family: 'Special Elite', cursive;
+  text-shadow: 2px 2px rgb(0, 26, 255);
+}
+h3 {
+  font-family: 'Special Elite', cursive;
+  text-shadow: 2px 2px rgb(0, 26, 255);
+}
+
+
+.background {
+border: 10px dotted rgb(227, 255, 0);
+padding: 15px;
+background-clip: padding-box;
+}
+
+.center {
+  text-align:center;
+}
+
+img {
+  max-height:200px;
+  max-width:200px;
+  border-radius:50%;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}

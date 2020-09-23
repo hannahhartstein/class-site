@@ -28,7 +28,7 @@ body {
   height:20vw;
   border-radius:50%;
   background:rgb(65, 67, 255);
-  animation: pulse 1s infinite alternate;
+  animation: pulse 1s alternate;
 }
 
 .square {

@@ -1,0 +1,31 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-color:white;
+}
+
+button {
+  font-family:helvetica;
+  font-size:16px;
+  color:black;
+  padding:12px;
+  border-radius:20px;
+  border-style:none;
+  border-color:none;
+  margin-left: 740px;
+  margin-top: 400px;
+  background-color:#d3d9e6;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor:pointer;
+  outline-style:none;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color:#1982FC;
+  box-shadow: 0px 15px 20px rgba(25, 130, 252, .4);
+  color:white;
+  transform: translateY(-7px);
+}

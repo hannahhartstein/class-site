@@ -52,7 +52,7 @@ body { font-family: sans-serif; }
 }
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-  background: white;
+  background:none;
 }
 
 /* no circle */
@@ -66,7 +66,7 @@ body { font-family: sans-serif; }
 }
 /* icon color */
 .flickity-button-icon {
- fill: white;
+ fill: #9923d0;
 }
 /* hide disabled button */
 .flickity-button:disabled {
